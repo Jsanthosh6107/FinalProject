@@ -1,0 +1,65 @@
+@media print {
+    
+    /* Hide everything by default */
+    body * {
+      display: none !important;
+    }
+  
+    /* Only show the <main> element */
+    main, main *{
+        display: block !important;
+    }
+
+    .it-1-text-buttons, .it-1-text-links{
+        display: none !important;
+    }
+
+    /* Only show the <main> element */
+    .it{
+        opacity: 1 !important;
+        transform: translateX(0rem);
+    }
+
+    .it-container {
+        display: flex !important;
+        text-align: center !important;  
+    }
+
+    .it{
+        display: flex !important;
+        padding: 1rem !important;
+    }
+
+    .it-1-text{
+        width: 100% !important;
+    }
+
+    .it-1-text p{
+        color: black !important;
+    }
+
+    .it-1-text em{
+        color: black !important;
+        display: inline !important;
+    }
+
+    .it-1-image{
+        display: none !important;
+    }
+
+    .it-1-text-transcript{
+        display: none !important;
+    }
+
+    audio{
+        display: none !important;
+    }
+
+    .youtube-container{
+        display: none !important;
+    }
+
+    .death-form-container{
+        display: none !important;
+    }
+  }

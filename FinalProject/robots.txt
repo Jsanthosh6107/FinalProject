@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /images/
+Disallow: /templates/
+Disallow: /textfiles/
+Disallow: /audio/

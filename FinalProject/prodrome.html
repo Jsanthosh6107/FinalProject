@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Prodrome</title><!--Change Each Page-->
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Prodrome phase, the first phase of ARS"><!--Change Each Page-->
+    <meta name="keywords" content="ARS, prodrome, radiation, symptoms"><!--Change Each Page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="icon" href="images/atomicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/atomicon.svg" type="image/x-icon">
+</head>
+<body>
+
+    <div class="wave-container">
+        <object type="image/svg+xml" data="images/wavetop.svg"></object>
+    </div>
+
+    <div id="svg-container-left">
+        <object data="images/polygonside.svg" type="image/svg+xml" id="svg-visual-left"></object>
+    </div>
+    <div id="svg-container">
+        <object data="images/polygoncenter.svg" type="image/svg+xml" id="svg-visual"></object>
+    </div>
+    <div id="svg-container-right">
+        <object data="images/polygonside.svg" type="image/svg+xml" id="svg-visual-right"></object>
+    </div>
+
+    <nav class="navbar">
+        <button class="navbar-toggler" type="button" aria-label="Toggle navigation">☰</button>
+        <div class="navbar-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link nav-active" aria-current="page" href="prodrome.html">Prodrome</a></li>
+                <li class="nav-item"><a class="nav-link" href="latent.html">Latent</a></li>
+                <li class="nav-item"><a class="nav-link" href="manifest.html">Manifest</a></li>
+                <li class="nav-item"><a class="nav-link" href="hematopoietic.html">Hematopoietic</a></li>
+                <li class="nav-item"><a class="nav-link" href="gastrointestinal.html">Gastrointestinal</a></li>
+            </ul>
+        </div>
+    </nav> 
+
+    <header class="header">
+        <div class="header-row1">
+            <div class="svg-image timeBeginningIconContainer icon-fill-1"></div>
+            <h1>Prodrome</h1>
+        </div>
+        <div class="header-row2">
+            <p>The first <span class="green-span">symptoms</span> of the <span class="yellow-span">inevitable</span></p>
+        </div>
+        <div class="header-row3">
+                <a href="#main" class="a-hover a-hover-fill"><div class="svg-image downArrowIconContainer"></div>Content</a>
+            <a href="latent.html" class="a-hover a-hover-fill a-hover-stroke icon-stroke-2 icon-fill-2"><div class="svg-image healthIconContainer"></div>Stage Two</a>
+        </div>
+    </header>
+
+    <main class="main" id="main">
+        <div class="it-container">
+            <div class="it it-prodrome hidden hidden-right">
+                <div class="it-1-image it-1-image-list">
+                        <div class="it-1-text-button it-1-text-button-list"><div class="svg-image nauseaIconContainer"></div><em>Severe </em> nausea</div>
+                        <div class="it-1-text-button it-1-text-button-list-lighter"><div class="svg-image backPainIconContainer"></div><em>Moderate </em> fatigue</div>
+                        <div class="it-1-text-button it-1-text-button-list"><div class="svg-image vomitingIconContainer"></div><em>Heavy </em> vomiting</div>
+                        <div class="it-1-text-button it-1-text-button-list-lighter"><div class="svg-image headacheIconContainer"></div><em>Severe </em> migrane</div>
+                        <div class="it-1-text-button it-1-text-button-list"><div class="svg-image skinIconContainer"></div><em>Red</em> skin</div>
+                </div>
+                <div class="it-1-text">
+                    <p>The initial phase comes with symptoms such as <em>nausea</em>, <em>vomiting</em>, <em>fatigue</em>, and <em>skin reddening</em>. Depending on how bad your initial symptoms are, this will be your <em>only indication</em> that you've recieved a lethal dose. Sometimes it is accomidated with a <em>migrane</em>, and these symptoms will last for a few hours after exposure.</p>
+                </div>
+            </div>
+            <div class="it it-middle hidden hidden-bottom">
+                <div class="it-1-image">
+                    <div class="glow"></div>
+                    <div class="svg-image medicalBagIconContainer"></div>
+            </div>
+                <div class="it-1-text">
+                    <p>This phase is used by doctors to <em>determine the dosage of radiation</em> you recieved. Depending on your symptoms, they'll have to decide <em>if</em> it's <em>worth treating you or not</em>. If they decide to, <em>aggressive care</em> is often needed in the earliest stages, though even then, your chances of survival can be minimal.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="ars-stages-links">
+            <div class="ars-stages-links-top">
+                <a href="prodrome.html" class="ars-stages-links-active"><div class="svg-image timeBeginningIconContainer"></div>Prodrome</a>
+                <div class="ars-stages-links-circle-outer">
+                    <div class="ars-stages-links-circle-inner"></div>
+                </div>
+                <a href="latent.html" class="ars-stages-links-heart-svg"><div class="svg-image healthIconContainer"></div>Latent</a>
+                <div class="ars-stages-links-circle-outer">
+                    <div class="ars-stages-links-circle-inner"></div>
+                </div>
+                <a href="manifest.html"><div class="svg-image brokenShieldContainer"></div>Manifest</a>
+            </div>
+            <div class="ars-stages-links-bottom">
+                <a href="hematopoietic.html"><div class="svg-image bloodIconContainer"></div>Hematopoietic</a>
+                <div class="ars-stages-links-circle-outer">
+                    <div class="ars-stages-links-circle-inner"></div>
+                </div>
+                <a href="gastrointestinal.html"><div class="svg-image stomachIconContainer"></div>Gastrointestinal</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/loadTemplates.js"></script>
+</body>
+</html>
